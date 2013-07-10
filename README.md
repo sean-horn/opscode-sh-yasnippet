@@ -27,3 +27,25 @@ an edit button at the bottom left of the textarea.  If you click that edit butto
 window having a Markdown major mode and yas minor mode should pop in your emacs.  
 When you save Markdown in that window, it will be sent to the textarea that popped the  
 window originally and you can Preview there in HelpSpot
+
+### Example Template Expansion
+
+When in the emacs Markdown/yas window popped up by a textarea from
+Chrome, we can enter a template key shortcut, like the one from the
+"anyupdates" template and press TAB to expand the template, like this:
+
+      upd8<TAB>
+
+The template will be expanded in place of the "upd8" key, like this
+
+>Hi,
+
+>Do you have any updates on this ticket?
+
+>Thanks,
+
+>Sean
+
+And "Hi," will be selected, so that we can enter the customers name,
+if we know it. Otherwise, we can hit \<TAB\> again and the text as shown
+above will be ready to save up to HelpSpot
