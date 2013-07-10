@@ -1,17 +1,16 @@
 ### General Info
 
-Using Edit with Emacs Chrome extension v1.12, Aquamacs 23.3.50.1, and yasnippet
-
+Using Edit with Emacs Chrome extension v1.12, Aquamacs 23.3.50.1, and latest yasnippet
 
 ### Installation
 
-Get and install Edit With Emacs extension from https://chrome.google.com/webstore/detail/edit-with-emacs/ljobjlafonikaiipfkggjbhkghgicgoh?hl=en
+* Get and install Edit With Emacs extension from https://chrome.google.com/webstore/detail/edit-with-emacs/ljobjlafonikaiipfkggjbhkghgicgoh?hl=en
 
-Get and install yasnippet following directions here: http://www.emacswiki.org/emacs/Yasnippet#toc3
+* Get and install yasnippet following directions here: http://www.emacswiki.org/emacs/Yasnippet#toc3
 
-Get and install markdown-mode in ~/.emacs.d/plugins using: `git clone git://jblevins.org/git/markdown-mode.git`
+* Get and install markdown-mode in ~/.emacs.d/plugins using: `git clone git://jblevins.org/git/markdown-mode.git`
 
-Install the included snippets in ~/.emacs.d/plugins/yasnippet/snippets/markdown-mode/
+* Install the included snippets in ~/.emacs.d/plugins/yasnippet/snippets/markdown-mode/
 
 ### Emacs
 
