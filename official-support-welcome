@@ -1,0 +1,39 @@
+# name: Send Official Welcome to Opscode Support for HelpSpot Ticket
+# contributor: Sean Horn
+# key: welcome
+# --
+Hi ${1:CustomerName},$0
+
+Thank you for choosing Chef and welcome to Opscode Chef Support. We are committed to helping you make the most of your Chef deployment. This email will cover the basics of how to interact with the Support Ticketing System, SLA definitions and is the official record of the start date of your support contract.
+
+*How to Interact With Support?
+
+This section covers the two methods of interacting with Opscode Support and when to use each.
+
+WEB (Severity 1 - 4 tickets)
+
+The web interface is the best method of submitting tickets to the Opscode Support team. From this interface you may submit any severity level ticket, as well as view previously submitted tickets. Previous tickets are shared for all members of the same organization (see below for more information). This interface is the only method of submitting a Severity 1 ticket; after submission you may use email as the method of updating the ticket.
+
+To re-open a closed ticket, simply click on the closed ticket in the web interface, and reply in the box provided. This will restart the ticket and move it back into the active queue.
+
+EMAIL (Severity 3)
+
+You may also submit tickets via email, however these tickets default to Severity 3 tickets only. To email a ticket, simply send an email to support@opscode.com, and a new ticket will be generated for you.
+
+To re-open a closed ticket via email, simply respond to the ticket chain (without changing the subject line). This will restart the ticket and move it back in to the active queue.
+
+*How Does the Ticketing System Interact With User Accounts?
+
+Users
+
+When an organization signs up for support, a domain is provided (i.e. mydomain.com). At that point, any user with a Community Login within that domain will have access. For example, if I start a support contract with the initial user and org being user1@mydomain.com, and there are two other individuals that have signed up with the Community website with email addresses (user2@mydomain.com and user3@mydomain.com) they will automatically have the ability to submit tickets on behalf of "mydomain".
+
+There may be a case where you either do not want to use your corporate/organization email address, and would prefer to use something like Gmail or you want to add a user that is not within your domain (i.e. contractors). In this case, you can request a user email address be added explicitly to the Support Tool for your Chef Organization. This can be done by emailing Sales@opscode.com or submitting a ticket (if you already have access).
+
+*System Status*
+
+Status for Opscode related systems can be found at status.opscode.com as well as @opscode_status on Twitter.
+
+Thanks,
+
+Sean

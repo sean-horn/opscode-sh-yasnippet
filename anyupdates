@@ -1,0 +1,11 @@
+# name: Updates for HelpSpot Ticket?
+# contributor: Sean Horn
+# key: upd8
+# --
+${1:Hi},$0
+
+Do you have any updates on this ticket?
+
+Thanks,
+
+Sean

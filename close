@@ -1,0 +1,13 @@
+# name: Close HelpSpot Ticket
+# contributor: Sean Horn
+# key: close
+# --
+${1:Hi},$0
+
+Closing this ticket for tracking purposes.
+
+Please reply with any further questions or comments on this issue and the ticket will reopen.
+
+Thanks,
+
+Sean
