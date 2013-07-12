@@ -1,0 +1,25 @@
+# name: Client/User Conflict HelpSpot Ticket
+# contributor: Sean Horn
+# key: cuc
+# --
+${1:Hi},$0
+
+It appears that you have a client named after your user.
+This situation causes a conflict and can interfere with the user's permissions.
+
+Please follow the steps below to resolve the conflict.
+
+Replace USERNAME with the username you use to login at manage.opscode.com
+
+1. Login to manage.opscode.com
+2. Browse to https://manage.opscode.com/clients/_acl
+3. Give the group "clients" the "List" permission
+4. Browse to https://manage.opscode.com/clients
+5. Delete the USERNAME client
+6. Browse to https://manage.opscode.com/clients/_acl
+7. Remove the "List" permission from the group "clients"
+8. Browse to https://manage.opscode.com/clients and verify you can see a list of your clients
+
+Thanks,
+
+Sean

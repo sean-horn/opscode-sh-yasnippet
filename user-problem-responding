@@ -1,0 +1,12 @@
+# name: User Problem Responding HelpSpot Ticket
+# contributor: Sean Horn
+# key: upr
+# --
+${1:Hi},$0
+
+If you are seeing mails bouncing back from our ticketing system when attempting to make updates to this ticket,  
+please send your response to _support@opscode_ referencing the original ticket number.
+
+Thanks,
+
+Sean
